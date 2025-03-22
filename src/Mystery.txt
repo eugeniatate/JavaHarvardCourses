@@ -1,0 +1,1 @@
+ After the code has been executed, the values of the elements in array a1 will be [26, 19, 14, 11, 10].
