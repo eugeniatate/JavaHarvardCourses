@@ -1,0 +1,33 @@
+public class BarCode {
+    private String myZipCode;
+    private String myBarCode;
+
+    public BarCode (String zipOrBarCode) {
+        if (zipOrBarCode.length() == 5) {
+            this.myZipCode = zipOrBarCode;
+            encode(myZipCode);
+        }
+        else if (zipOrBarCode.length() == 32) {
+            this.myBarCode = zipOrBarCode;
+            decode(myBarCode);
+
+        }
+        else { }
+    }
+
+    public String getMyZipCode () {
+        return myZipCode;
+    }
+
+    public String getMyBarCode () {
+        return myBarCode;
+    }
+
+    private encode (String myZipCode) {
+
+    }
+
+    private decode (String myBarCode) {
+        
+    }
+}

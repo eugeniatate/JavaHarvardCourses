@@ -1,0 +1,8 @@
+
+Cell c = new BloodCell(); // valid
+
+Cell c = new RedBloodCell(); // valid
+
+BloodCell c = new RedBloodCell(); // valid
+
+RedBloodCell c = new BloodCell(); // invalid because RedBloodCell cannot reference an object that is its superclass. RedBloodCell c can only reference instances of its own class or its subclass (if such existed).In other words, we cannot assign a superclass object (BloodCell) to a subclass reference (RedBloodCell).

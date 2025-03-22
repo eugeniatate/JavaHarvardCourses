@@ -1,0 +1,29 @@
+(a) class Oven extends Kitchen 
+	does not make sense
+
+(b) class Guitar extends Instrument
+	makes sense 
+
+(c) class Person extends Employee
+	does not make sense 
+
+(d) class FriedEgg extends Food
+	makes sense 
+
+(e) class Beagle extends Dog
+	makes sense 
+
+(f) class Canoe extends Boat
+	makes sense 
+
+(g) class Container extends Jar
+	does not make sense 
+
+(h) class Beverage extends Martini
+	does not make sense 
+
+(i) class Metal extends Titanium
+	does not make sense 
+
+(j) class RollingStones extends RockBand
+	makes sense 
