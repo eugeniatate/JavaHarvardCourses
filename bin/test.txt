@@ -1,0 +1,5 @@
+HELLO
+HEllO
+heLLo
+123
+_123HELLO
