@@ -1,0 +1,7 @@
+The reason the original loop never terminates is because the insertion alwasy appens at the beginning of the list which makes the list grow exponentially never making the insertion of a "NOT" string to be in between the elements but rather all bunched up at the beginning of the list.
+
+Revised for-loop: 
+
+for (int i = 0; i < a.size(); i+=2) {
+    a.add(i, "NOT");
+}

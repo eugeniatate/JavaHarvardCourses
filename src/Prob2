@@ -1,0 +1,9 @@
+A method might throw a NullPointerException if it tries to modify or access a vatiable that has not been initialized. For example, when a method tries to accesss length of a string that has not been initialized. 
+
+String s; 
+method (s) {
+	s.length(); //tries to access length of s 
+}
+
+
+A NullPointerException is not a checked exception because it is always a programmer's fault (not caused bu external circumstances). A programmer should know that length of an uninitialized string can not be accessed, for example.
